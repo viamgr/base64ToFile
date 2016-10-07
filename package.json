@@ -1,6 +1,6 @@
 {
   "name": "base64-to-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save base64 data to a specified directory.",
   "main": "index.js",
   "scripts": {
