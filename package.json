@@ -1,0 +1,31 @@
+{
+  "name": "base64-to-file",
+  "version": "1.0.0",
+  "description": "Save base64 data to a specified directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viamgr/base64ToFile.git"
+  },
+  "keywords": [
+    "Base64ToFile",
+    "convert",
+    "base64",
+    "images",
+    "to",
+    "binary",
+    "files",
+    "on",
+    "nodejs",
+    "server."
+  ],
+  "author": "Vahid Moradi (VIAM)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viamgr/base64ToFile/issues"
+  },
+  "homepage": "https://github.com/viamgr/base64ToFile#readme"
+}
