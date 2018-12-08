@@ -1,7 +1,7 @@
 var mkdirp = require('mkdirp');
 
 exports.isMatchToBase64 = function isMatchToBase64(dataString) {
-    return dataString.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/);
+    return dataString.match(/^data:([A-Za-z0-9-+\/]+);base64,(.+)$/);
 };
 
 function decodeBase64Image(dataString) {
