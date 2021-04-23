@@ -74,7 +74,7 @@ exports.convert = function (base64String, uploadLocation, acceptFileTypes, callb
 
 
         mkdirp(uploadLocation, function (err) {
-            if (err) {
+            if (error) {
                 throw error;
             }
             writeFile();
